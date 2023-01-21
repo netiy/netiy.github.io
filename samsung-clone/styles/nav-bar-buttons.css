@@ -1,0 +1,19 @@
+.nav-bar__links button {
+    text-align: center;
+    padding: 7px 8px;  
+    font-weight: 700;
+    font-size: 14px;     
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.nav-bar__links button:hover{
+    background-color: black;
+    color: white;
+}
+
+#mso__person {
+    background-color: transparent;
+    border: none;
+}
