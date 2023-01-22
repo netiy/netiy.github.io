@@ -11,17 +11,18 @@ body {
 	margin-top: 81px;
 	opacity: 0;
 	width: 100vw;
-	height: auto;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	position: fixed;
-	transition: opacity 0.6s;	
+	transition: opacity 0.6s;
+	z-index: -1;
 }
 .nav-bar__links li:hover ~ .overlay {
 	transition: opacity 0s;
 	opacity: 0.6;
+	z-index: 1000;
 	
 }
 
