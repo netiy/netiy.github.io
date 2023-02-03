@@ -1,0 +1,63 @@
+#header {
+	background-color: #181818;
+	font-family: "Montserrat";
+	padding: 0px 20px 10px 30px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	white-space: nowrap;
+	align-items: center;
+
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+/* COMPANY LOGO */
+#company-logo {
+	padding-top: 10px;
+	height: clamp(27px, 2vw, 35px);
+}
+#header a:hover {
+	cursor: pointer;
+}
+/* NAVIGATION */
+
+.nav ul {
+	display: flex;
+	column-gap: 2vw;
+	align-items: center;
+	justify-content: space-between;
+
+	list-style: none;
+}
+.nav li a {
+	color: #70848b;
+	font-family: "poppins";
+	text-decoration: none;
+	font-size: calc(16px + 0.3vw);
+	font-weight: 600;
+}
+
+.nav ul button:not(#menu-btn) {
+	background-color: #550080;
+	font-weight: 600;
+	font-size: calc(11px + 0.3vw);
+	color: white;
+	border: none;
+	border-radius: 50vw;
+	padding: calc(7px + 0.3vw) calc(15px + 0.3vw);
+}
+
+/* Mobile */
+
+
+#menu-btn {
+	background-color: transparent;
+	border: transparent;
+	cursor: pointer;
+
+
+	display: none;
+}

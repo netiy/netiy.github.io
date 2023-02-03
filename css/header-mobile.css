@@ -1,0 +1,8 @@
+@media screen and (max-width: 550px) {
+    .nav ul li{ 
+        display: none;
+    }
+    #menu-btn {
+        display: block;
+    }
+}

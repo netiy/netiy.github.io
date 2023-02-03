@@ -1,0 +1,11 @@
+#section2 {
+	background-color: #8d5ca4;
+	margin-top: -vw;
+	height: 100vh;
+	position: relative;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: end;
+}

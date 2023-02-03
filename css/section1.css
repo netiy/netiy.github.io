@@ -1,0 +1,61 @@
+
+#section1 {	
+	scroll-snap-align: start;
+	margin-top: 140px;
+	height: calc(79vh - calc(3.3px + 0.29vw));
+	color: white;
+	
+}
+#section1-container {
+	margin: 0px clamp(20px, 5vw, 50vw);
+	position: fixed;
+}
+
+#section1 h4{
+	margin-top: 10px;
+	max-width: 100%;
+	color: rgb(212, 212, 212);
+}
+#section1 button {
+	margin-top: 50px;
+	position: absolute;
+	background-color: transparent;
+	border: 3px solid #d8bfff;
+	font-weight: 600;
+	font-size: 17px;
+	color: white;
+	border-radius: 30px;
+	padding: 15px 30px;
+	cursor: pointer;
+	box-shadow: 0 4px 0px #d8bfff;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+#section1 button:hover {
+	color:white;
+}
+#section1 button:active {
+	margin-top: 58px;
+	box-shadow: none;
+}
+#svg-wavedark, #svg-wavelight{
+	margin-bottom: -1px;
+	object-fit: cover;
+	object-position: left;
+
+	height: clamp(10vh, 50vh, 60vh);
+	width: 100vw;
+	
+	position: absolute;
+	pointer-events: none;
+}
+
+/* WAVES SVG */
+
+#svg-wavedark {
+	z-index: 5;
+	bottom: -16%;
+}
+#svg-wavelight {
+	z-index: 5;
+	bottom: -7%;
+}
