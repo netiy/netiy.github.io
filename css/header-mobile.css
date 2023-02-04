@@ -1,4 +1,4 @@
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
     .nav ul li{ 
         display: none;
     }
@@ -6,3 +6,7 @@
         display: block;
     }
 }
+@media screen and (min-width:701px) {
+    #hamburger-container {
+        display: none;
+    }}

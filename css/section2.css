@@ -1,11 +1,22 @@
 #section2 {
-	background-color: #8d5ca4;
-	margin-top: -vw;
-	height: 100vh;
+	background-color: transparent;
+	margin-top: 5vh;
+	height: 1000px;
 	position: relative;
 
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: end;
+	background-color: lightgray;
+	
+}
+#section2-container {
+	max-width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;	
+}
+#section2-container div {
+	padding: 50px;
+	background-color: lightgray;
+}
+#section2 h2 {
+	padding: 20px 100px;
+	grid-column: 2;
 }
